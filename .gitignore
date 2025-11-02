@@ -1,0 +1,47 @@
+# OS & editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# Tests & tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env & secrets
+.env
+*.env
+*.secrets
+*.key
+
+# Data (לא להעלות CSV מקומי)
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.db
+data/*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Streamlit artifacts (אם תריץ מקומית)
+.streamlit/
+
+# Uvicorn reload artifacts
+*.pid
+
+*.zip
+nadlan_automation_project/
