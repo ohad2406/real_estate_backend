@@ -1,6 +1,5 @@
 fastapi
 uvicorn
-pydantic
 pandas
 numpy
-python-dateutil
+python-dotenv

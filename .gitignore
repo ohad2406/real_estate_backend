@@ -1,47 +1,21 @@
-# OS & editors
+# macOS
 .DS_Store
-Thumbs.db
-.idea/
-.vscode/
 
-# Python
+
+# Python caches
 __pycache__/
-*.py[cod]
-*.pyo
-*.egg-info/
-.eggs/
-.venv/
-venv/
-env/
-pip-wheel-metadata/
+*.pyc
 
-# Tests & tooling
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Env & secrets
+# Env
 .env
-*.env
-*.secrets
-*.key
 
-# Data (לא להעלות CSV מקומי)
+# Data
 data/*.csv
-data/*.parquet
-data/*.json
-data/*.db
-data/*.sqlite
+!data/transactions.csv   # משאירים את קובץ הדמו ב־git
 
-# Logs
-logs/
-*.log
+# Outputs / artifacts
+output/
+archived_providers/**/*.zip
 
-# Streamlit artifacts (אם תריץ מקומית)
-.streamlit/
-
-# Uvicorn reload artifacts
-*.pid
-
-*.zip
+# Nadlan automation (אם נשאר מחוץ לארכיון)
 nadlan_automation_project/
